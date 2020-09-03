@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="zh" xmlns:th="http://www.thymeleaf.org" xmlns:shiro="http://www.pollix.at/thymeleaf/shiro">
+<head>
+    <th:block th:include="include :: header('数据申请')"/>
+    <th:block th:include="include :: bootstrap-select-css" />
+
+</head>
+<body class="gray-bg">
+<div class="container-div">
+    <div class="row">
+        <div class="col-sm-12 search-collapse">
+            <form id="role-form">
+                <div class="select-list">
+                    <ul>
+                        <li class="select-time">
+                            <label>提取日期： </label>
+                            <input type="text" class="time-input" placeholder="开始时间" name="startDate"/>
+                            <span>-</span>
+                            <input type="text" class="time-input" placeholder="结束时间" name="endDate"/>
+                        </li>
+                        <li>
+                            管理机构：<select id="management" th:with="type=${@dict.getType('aml_management_type')}">
+                            <option value="">--请选择管理机构--</option>
+                            <option th:each="dict : ${type}" th:text="${dict.dictLabel}"
+                                    th:value="${dict.dictValue}"></option>
+                        </select>
+                        </li>
+                        <li>
+                            <a class="btn btn-primary btn-rounded btn-sm" onclick="add()"><i
+                                    class="glyphicon glyphicon-circle-arrow-up"></i>&nbsp;创建</a>
+                            <a class="btn btn-warning btn-rounded btn-sm" onclick="$.form.reset()"><i class="fa fa-refresh"></i>&nbsp;重置</a>
+                        </li>
+                    </ul>
+                </div>
+            </form>
+        </div>
+        <div class="col-sm-12 select-table table-striped">
+            <table id="bootstrap-table" data-mobile-responsive="true"></table>
+        </div>
+    </div>
+</div>
+<th:block th:include="include :: footer"/>
+<th:block th:include="include :: bootstrap-select-js" />
+<script th:inline="javascript">
+    var removeFlag = [[${@permission.hasRole('admin')}]];
+    var prefix = ctx + "aml/dataCreate";
+    var staeDatas = [[${@dict.getType('aml_data_sate')}]];
+    var managementDatas = [[${@dict.getType('aml_management_type')}]];
+
+    $(function () {
+        var options = {
+            url: prefix + "/list",
+            createUrl: prefix + "/add",
+            updateUrl: prefix + "/edit/{id}",
+            removeUrl: prefix + "/remove",
+            exportUrl: prefix + "/export",
+            // sortName: "id",
+            modalName: "创建数据",
+            columns: [{
+                radio: true
+            },
+                {
+                    field: 'id',
+                    title: '批次号',
+                    sortable: true
+                },
+                {
+                    field: 'startDate',
+                    title: '数据提取开始日期',
+                    sortable: true
+                },
+                {
+                    field: 'endDate',
+                    title: '数据提取结束日期',
+                    sortable: true
+                },
+                {
+                    field: 'management',
+                    title: '管理机构',
+                    sortable: true,
+                    formatter: function (value, row, index) {
+                        return $.table.selectDictLabel(managementDatas, value);
+                    }
+                },
+                {
+                    field: 'appDate',
+                    title: '申请日期',
+                    sortable: true
+                },
+                {
+                    field: 'createBy',
+                    title: '申请人',
+                    sortable: true
+                },
+                {
+                    field: 'state',
+                    title: '执行状态',
+                    sortable: true,
+                    formatter: function (value, row, index) {
+                        return $.table.selectDictLabel(staeDatas, value);
+                    }
+                },
+                {
+                    title: '操作',
+                    align: 'center',
+                    formatter: function (value, row, index) {
+                        var actions = [];
+                        actions.push('<a class="btn btn-danger btn-xs ' + removeFlag + '" href="javascript:void(0)" onclick="$.operate.remove(\'' + row.id + '\')"><i class="fa fa-remove"></i>删除</a> ');
+                        return actions.join('');
+                    }
+                }]
+        };
+        $.table.init(options);
+    });
+
+    function add() {
+        var startDate = $("input[name='startDate']").val();
+        var endDate = $("input[name='endDate']").val();
+        var management = $('#management').selectpicker('val') ;
+        if (management == '') {
+            management = '86';
+        }
+        $.ajax({
+            cache: true,
+            type: "POST",
+            url: ctx + "aml/dataCreate/add",
+            data: {
+                "startDate": startDate,
+                "endDate": endDate,
+                "management": management
+            },
+            async: false,
+            error: function (request) {
+                $.modal.alertError("系统错误");
+            },
+            success: function (result) {
+                if (result.code == web_status.SUCCESS) {
+                    var id = result.msg;
+                    $.ajax({
+                        cache: true,
+                        type: "POST",
+                        url: ctx + "aml/dataCreate/createFile",
+                        data: {
+                            "startDate": startDate,
+                            "endDate": endDate,
+                            "management": management,
+                            "id":id
+                        }
+                    });
+                    $.modal.alertSuccess("数据提取申请成功！");
+                    $.table.refresh();
+                } else if (result.code == web_status.WARNING) {
+                    $.modal.alertWarning(result.msg)
+                }  else {
+                    $.modal.alertError(result.msg);
+                }
+            }
+        });
+    }
+</script>
+</body>
+</html>

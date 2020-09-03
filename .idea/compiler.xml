@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <option name="BUILD_PROCESS_HEAP_SIZE" value="2048" />
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="amlcommon" />
+        <module name="aml-framework" />
+        <module name="aml-common" />
+        <module name="aml-system" />
+        <module name="aml-admin" />
+        <module name="amlquartz" />
+        <module name="amladmin" />
+        <module name="aml-quartz" />
+        <module name="amlsystem" />
+        <module name="amlframework" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="amlgenerator" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

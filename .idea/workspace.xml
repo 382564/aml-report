@@ -1,0 +1,661 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d1c6f14a-aa74-407b-b80f-845562164614" name="Default Changelist" comment="添加日志，" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectId" id="1Q5biy4semCnwpRSpPo7H1LMc2F" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="abbreviatePackageNames" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="oracle" />
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="database.data.extractors.current.id" value="SQL Inserts" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.CommitDialog" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.sinosoft.aml.service" />
+      <recent name="com.sinosoft.aml.mapper" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.sinosoft.aml.service" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/aml-admin/src/test/java/com/sinosoft" />
+      <recent name="$PROJECT_DIR$/aml-system/src/main/resources/mapper/aml" />
+      <recent name="$PROJECT_DIR$/aml-system/src/main/java/com/sinosoft/aml/domain" />
+      <recent name="$PROJECT_DIR$/sql/DML" />
+      <recent name="$PROJECT_DIR$/aml-admin/src/main/resources/static" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.AmlApplication">
+    <configuration name="DownloadRecursiveFolderFromSFTP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sinosoft.DownloadRecursiveFolderFromSFTP" />
+      <module name="aml-admin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sinosoft.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DownloadRecursiveFolderFromSFTP.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="aml-admin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sinosoft.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sinosoft" />
+      <option name="MAIN_CLASS_NAME" value="com.sinosoft.DownloadRecursiveFolderFromSFTP" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DownloadRecursiveFolderFromSFTP.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="aml-admin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sinosoft.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sinosoft" />
+      <option name="MAIN_CLASS_NAME" value="com.sinosoft.DownloadRecursiveFolderFromSFTP" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DownloadRecursiveFolderFromSFTP.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="aml-admin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sinosoft.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sinosoft" />
+      <option name="MAIN_CLASS_NAME" value="com.sinosoft.DownloadRecursiveFolderFromSFTP" />
+      <option name="METHOD_NAME" value="test3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestList.testFTP" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="aml-admin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sinosoft.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sinosoft" />
+      <option name="MAIN_CLASS_NAME" value="com.sinosoft.TestList" />
+      <option name="METHOD_NAME" value="testFTP" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AmlApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="aml-admin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sinosoft.AmlApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.DownloadRecursiveFolderFromSFTP" />
+      <item itemvalue="JUnit.TestList.testFTP" />
+      <item itemvalue="JUnit.DownloadRecursiveFolderFromSFTP.test1" />
+      <item itemvalue="JUnit.DownloadRecursiveFolderFromSFTP.test2" />
+      <item itemvalue="JUnit.DownloadRecursiveFolderFromSFTP.test3" />
+      <item itemvalue="Spring Boot.AmlApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.DownloadRecursiveFolderFromSFTP.test3" />
+        <item itemvalue="JUnit.DownloadRecursiveFolderFromSFTP.test2" />
+        <item itemvalue="JUnit.DownloadRecursiveFolderFromSFTP.test1" />
+        <item itemvalue="Application.DownloadRecursiveFolderFromSFTP" />
+        <item itemvalue="JUnit.TestList.testFTP" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>$USER_HOME$/.subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d1c6f14a-aa74-407b-b80f-845562164614" name="Default Changelist" comment="" />
+      <created>1567063534422</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1567063534422</updated>
+      <workItem from="1567063537324" duration="9275000" />
+      <workItem from="1567128618293" duration="19808000" />
+      <workItem from="1567386118525" duration="36681000" />
+      <workItem from="1567471649258" duration="4727000" />
+      <workItem from="1567478002467" duration="23442000" />
+      <workItem from="1567514824745" duration="4762000" />
+      <workItem from="1567557444227" duration="1000" />
+      <workItem from="1567557518588" duration="4678000" />
+      <workItem from="1567563400961" duration="3693000" />
+      <workItem from="1567567274548" duration="9336000" />
+      <workItem from="1567601617294" duration="2281000" />
+      <workItem from="1567604572678" duration="85000" />
+      <workItem from="1567604696549" duration="1367000" />
+      <workItem from="1567644838126" duration="6066000" />
+      <workItem from="1567666032794" duration="9635000" />
+      <workItem from="1567735038946" duration="20006000" />
+      <workItem from="1567992106956" duration="10485000" />
+      <workItem from="1568013239405" duration="13711000" />
+      <workItem from="1568075843741" duration="373000" />
+      <workItem from="1568076365162" duration="21351000" />
+      <workItem from="1568162689905" duration="18423000" />
+      <workItem from="1568249558271" duration="1093000" />
+      <workItem from="1568264692365" duration="1023000" />
+      <workItem from="1568270089304" duration="900000" />
+      <workItem from="1568272593719" duration="2653000" />
+      <workItem from="1568595141930" duration="6850000" />
+      <workItem from="1568613781152" duration="3158000" />
+      <workItem from="1568619825106" duration="97000" />
+      <workItem from="1568622888843" duration="3679000" />
+      <workItem from="1568682253644" duration="187000" />
+      <workItem from="1568696970177" duration="213000" />
+      <workItem from="1568710833985" duration="1148000" />
+      <workItem from="1568772901268" duration="287000" />
+      <workItem from="1568774477993" duration="560000" />
+      <workItem from="1568783964364" duration="1022000" />
+      <workItem from="1568785829814" duration="641000" />
+      <workItem from="1568801835671" duration="650000" />
+      <workItem from="1569399905005" duration="8378000" />
+      <workItem from="1569488835052" duration="1112000" />
+      <workItem from="1569549753361" duration="29990000" />
+      <workItem from="1569629593409" duration="2731000" />
+      <workItem from="1569632457934" duration="8642000" />
+      <workItem from="1569644591979" duration="1189000" />
+      <workItem from="1569650007306" duration="1975000" />
+      <workItem from="1570495833019" duration="11598000" />
+      <workItem from="1570783076456" duration="918000" />
+      <workItem from="1570862536175" duration="682000" />
+      <workItem from="1571021883120" duration="3801000" />
+      <workItem from="1571031818661" duration="1756000" />
+      <workItem from="1571214651898" duration="2068000" />
+      <workItem from="1571230952248" duration="2764000" />
+      <workItem from="1571272894692" duration="12221000" />
+      <workItem from="1571361364793" duration="12314000" />
+      <workItem from="1571618282874" duration="22000" />
+      <workItem from="1571639438894" duration="2358000" />
+      <workItem from="1571722331155" duration="8613000" />
+      <workItem from="1571791871419" duration="258000" />
+      <workItem from="1571811505627" duration="11000" />
+      <workItem from="1571909931285" duration="59000" />
+      <workItem from="1571968227415" duration="503000" />
+      <workItem from="1572404867865" duration="501000" />
+      <workItem from="1572412052780" duration="8534000" />
+      <workItem from="1572500061893" duration="14918000" />
+      <workItem from="1572858683794" duration="311000" />
+      <workItem from="1572859240952" duration="3704000" />
+      <workItem from="1572870281123" duration="562000" />
+      <workItem from="1572877326271" duration="841000" />
+      <workItem from="1573109119521" duration="761000" />
+      <workItem from="1578731637399" duration="434000" />
+      <workItem from="1573435128688" duration="11532000" />
+      <workItem from="1573540480116" duration="704000" />
+      <workItem from="1573608120605" duration="1427000" />
+      <workItem from="1573609584155" duration="8941000" />
+      <workItem from="1573634540312" duration="589000" />
+      <workItem from="1573709618366" duration="394000" />
+      <workItem from="1573721909825" duration="305000" />
+      <workItem from="1574038460366" duration="17000" />
+      <workItem from="1574047391291" duration="2506000" />
+      <workItem from="1574237706305" duration="5270000" />
+      <workItem from="1574409276489" duration="560000" />
+      <workItem from="1574643898013" duration="276000" />
+      <workItem from="1574648032471" duration="425000" />
+      <workItem from="1574996131607" duration="757000" />
+      <workItem from="1575286988669" duration="1588000" />
+      <workItem from="1575385691150" duration="330000" />
+      <workItem from="1575442577885" duration="4000" />
+      <workItem from="1575455522536" duration="725000" />
+      <workItem from="1575466504831" duration="355000" />
+      <workItem from="1575856539042" duration="35000" />
+      <workItem from="1576034992108" duration="2582000" />
+      <workItem from="1576049158581" duration="845000" />
+      <workItem from="1576050856571" duration="363000" />
+      <workItem from="1576143133371" duration="1185000" />
+      <workItem from="1576146272920" duration="2821000" />
+      <workItem from="1576154250270" duration="3222000" />
+      <workItem from="1576645327646" duration="368000" />
+      <workItem from="1577684734532" duration="117000" />
+      <workItem from="1578016801654" duration="217000" />
+      <workItem from="1578039694256" duration="211000" />
+      <workItem from="1578274359918" duration="250000" />
+      <workItem from="1578292517931" duration="368000" />
+      <workItem from="1578359520295" duration="32000" />
+      <workItem from="1578363930571" duration="231000" />
+      <workItem from="1578382771282" duration="84000" />
+      <workItem from="1578905391741" duration="351000" />
+      <workItem from="1578906330771" duration="135000" />
+      <workItem from="1578907294960" duration="229000" />
+      <workItem from="1578971949556" duration="36000" />
+      <workItem from="1578982883073" duration="32000" />
+      <workItem from="1578988467635" duration="777000" />
+      <workItem from="1578999685341" duration="1323000" />
+      <workItem from="1579054717637" duration="4007000" />
+      <workItem from="1579079553867" duration="618000" />
+      <workItem from="1579496585508" duration="1706000" />
+      <workItem from="1583205561795" duration="321000" />
+      <workItem from="1584670838813" duration="192000" />
+      <workItem from="1584684470944" duration="759000" />
+      <workItem from="1584714109696" duration="13000" />
+      <workItem from="1586251457225" duration="231000" />
+      <workItem from="1586251702163" duration="13000" />
+      <workItem from="1586251905612" duration="17000" />
+      <workItem from="1588062611786" duration="2015000" />
+      <workItem from="1588921348665" duration="138000" />
+      <workItem from="1590731682287" duration="297000" />
+      <workItem from="1590742910104" duration="4517000" />
+      <workItem from="1590973073700" duration="17533000" />
+      <workItem from="1591001554781" duration="978000" />
+      <workItem from="1591060809632" duration="4056000" />
+      <workItem from="1591260698908" duration="2643000" />
+      <workItem from="1591581510136" duration="683000" />
+      <workItem from="1592207738328" duration="492000" />
+      <workItem from="1593587291252" duration="540000" />
+      <workItem from="1593651925135" duration="8291000" />
+      <workItem from="1595315020428" duration="124000" />
+      <workItem from="1595315167563" duration="755000" />
+      <workItem from="1595315928574" duration="535000" />
+      <workItem from="1596782638570" duration="552000" />
+      <workItem from="1598349250229" duration="275000" />
+      <workItem from="1599110795972" duration="730000" />
+    </task>
+    <task id="LOCAL-00001" summary="反洗钱系统&#10;初始化提交">
+      <created>1567070648036</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1567070648036</updated>
+    </task>
+    <task id="LOCAL-00002" summary="反洗钱系统&#10;初始化提交">
+      <created>1567071439032</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1567071439032</updated>
+    </task>
+    <task id="LOCAL-00003" summary="菜单修改，初始化sql">
+      <created>1567133607031</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1567133607032</updated>
+    </task>
+    <task id="LOCAL-00004" summary="静态资源文件">
+      <created>1567134468033</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1567134468033</updated>
+    </task>
+    <task id="LOCAL-00005" summary="数据提取页面，主页">
+      <created>1567150048030</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1567150048030</updated>
+    </task>
+    <task id="LOCAL-00006" summary="17个表excel文件压缩成.zip文件下载">
+      <created>1568194053030</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1568194053030</updated>
+    </task>
+    <task id="LOCAL-00007" summary="数据查询页面重置按钮无效、部分表字段名错误，修复。">
+      <created>1568623793032</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1568623793032</updated>
+    </task>
+    <task id="LOCAL-00008" summary="12表sql语句添加，tb_company、tb_ins_pers 数据不正确修复">
+      <created>1569407990034</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1569407990034</updated>
+    </task>
+    <task id="LOCAL-00009" summary="提数sql语句执行错误，修复。">
+      <created>1570512672031</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1570512672031</updated>
+    </task>
+    <task id="LOCAL-00010" summary="反洗钱系统初始化sql">
+      <created>1571031511034</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1571031511034</updated>
+    </task>
+    <task id="LOCAL-00011" summary="管理机构增加8601总公司，ins_Fav_Cst表执行失败修复">
+      <created>1571303096035</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1571303096035</updated>
+    </task>
+    <task id="LOCAL-00012" summary="提数增加管理机构过滤">
+      <created>1571306428032</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1571306428032</updated>
+    </task>
+    <task id="LOCAL-00013" summary="17表sql语句添加">
+      <created>1571394641032</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1571394641032</updated>
+    </task>
+    <task id="LOCAL-00014" summary="17表效率优化，不存入数据库直接创建excel">
+      <created>1571792125027</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1571792125027</updated>
+    </task>
+    <task id="LOCAL-00015" summary="ins_pers表查询结果集映射错误修复">
+      <created>1572426191028</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1572426191028</updated>
+    </task>
+    <task id="LOCAL-00016" summary="导出excel，double类型字段保留2位小数。">
+      <created>1572517225035</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1572517225035</updated>
+    </task>
+    <task id="LOCAL-00017" summary="unit表查询调整">
+      <created>1573540558038</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1573540558038</updated>
+    </task>
+    <task id="LOCAL-00018" summary="tb_ins_gpol 增加一个字段">
+      <created>1573540608030</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1573540608030</updated>
+    </task>
+    <task id="LOCAL-00019" summary="表4 ins_unit 查询调整">
+      <created>1574054069029</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1574054069029</updated>
+    </task>
+    <task id="LOCAL-00020" summary="交易唯一识别号,更改为业务号">
+      <created>1574238517028</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1574238517028</updated>
+    </task>
+    <task id="LOCAL-00021" summary="insUnit 表去掉重复数据">
+      <created>1575287937029</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1575287937029</updated>
+    </task>
+    <task id="LOCAL-00022" summary="sus_report 表，itnm、bntn 字段显示为整数">
+      <created>1575455756032</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1575455756032</updated>
+    </task>
+    <task id="LOCAL-00023" summary="sus_report 表 STNM、SETN 显示为整数">
+      <created>1575455950026</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1575455950026</updated>
+    </task>
+    <task id="LOCAL-00024" summary="登陆页面默认用户名密码删除">
+      <created>1576040877031</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1576040877031</updated>
+    </task>
+    <task id="LOCAL-00025" summary="连接黑名单厂商sftp下载文件">
+      <created>1590978296035</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1590978296035</updated>
+    </task>
+    <task id="LOCAL-00026" summary="修改aml服务器下载目录">
+      <created>1590978377030</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1590978377030</updated>
+    </task>
+    <task id="LOCAL-00027" summary="添加日志，下载前先删除原来的文件。">
+      <created>1590998041030</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1590998041030</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="菜单修改，初始化sql" />
+    <MESSAGE value="静态资源文件" />
+    <MESSAGE value="数据提取页面，主页" />
+    <MESSAGE value="17个表excel文件压缩成.zip文件下载" />
+    <MESSAGE value="数据查询页面重置按钮无效、部分表字段名错误，修复。" />
+    <MESSAGE value="12表sql语句添加，tb_company、tb_ins_pers 数据不正确修复" />
+    <MESSAGE value="提数sql语句执行错误，修复。" />
+    <MESSAGE value="反洗钱系统初始化sql" />
+    <MESSAGE value="管理机构增加8601总公司，ins_Fav_Cst表执行失败修复" />
+    <MESSAGE value="提数增加管理机构过滤" />
+    <MESSAGE value="17表sql语句添加" />
+    <MESSAGE value="17表效率优化，不存入数据库直接创建excel" />
+    <MESSAGE value="ins_pers表查询结果集映射错误修复" />
+    <MESSAGE value="导出excel，double类型字段保留2位小数。" />
+    <MESSAGE value="unit表查询调整" />
+    <MESSAGE value="tb_ins_gpol 增加一个字段" />
+    <MESSAGE value="表4 ins_unit 查询调整" />
+    <MESSAGE value="交易唯一识别号,更改为业务号" />
+    <MESSAGE value="insUnit 表去掉重复数据" />
+    <MESSAGE value="sus_report 表，itnm、bntn 字段显示为整数" />
+    <MESSAGE value="sus_report 表 STNM、SETN 显示为整数" />
+    <MESSAGE value="登陆页面默认用户名密码删除" />
+    <MESSAGE value="连接黑名单厂商sftp下载文件" />
+    <MESSAGE value="修改aml服务器下载目录" />
+    <MESSAGE value="添加日志，下载前先删除原来的文件。" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加日志，下载前先删除原来的文件。" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="653" y="220" key="#com.intellij.ide.util.MemberChooser" timestamp="1590976532178">
+      <screen x="0" y="23" width="1680" height="949" />
+    </state>
+    <state x="653" y="220" key="#com.intellij.ide.util.MemberChooser/0.23.1680.949@0.23.1680.949" timestamp="1590976532178" />
+    <state x="465" y="169" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1595315259908">
+      <screen x="0" y="23" width="1680" height="949" />
+    </state>
+    <state x="465" y="169" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.23.1680.949@0.23.1680.949" timestamp="1595315259908" />
+    <state x="434" y="91" key="CommitChangelistDialog2" timestamp="1592207764908">
+      <screen x="0" y="23" width="1680" height="949" />
+    </state>
+    <state x="434" y="91" key="CommitChangelistDialog2/0.23.1680.949@0.23.1680.949" timestamp="1592207764908" />
+    <state width="474" height="466" key="DebuggerActiveHint" timestamp="1590746020087">
+      <screen x="0" y="23" width="1680" height="949" />
+    </state>
+    <state width="474" height="466" key="DebuggerActiveHint/0.23.1680.949@0.23.1680.949" timestamp="1590746020087" />
+    <state x="100" y="123" width="1480" height="749" key="DiffContextDialog" timestamp="1591061285312">
+      <screen x="0" y="23" width="1680" height="949" />
+    </state>
+    <state x="100" y="123" width="1480" height="749" key="DiffContextDialog/0.23.1680.949@0.23.1680.949" timestamp="1591061285312" />
+    <state width="1638" height="254" key="GridCell.Tab.0.bottom" timestamp="1598349526222">
+      <screen x="0" y="23" width="1680" height="949" />
+    </state>
+    <state width="1638" height="254" key="GridCell.Tab.0.bottom/0.23.1680.949@0.23.1680.949" timestamp="1598349526222" />
+    <state width="1638" height="254" key="GridCell.Tab.0.center" timestamp="1598349526221">
+      <screen x="0" y="23" width="1680" height="949" />
+    </state>
+    <state width="1638" height="254" key="GridCell.Tab.0.center/0.23.1680.949@0.23.1680.949" timestamp="1598349526221" />
+    <state width="1638" height="254" key="GridCell.Tab.0.left" timestamp="1598349526221">
+      <screen x="0" y="23" width="1680" height="949" />
+    </state>
+    <state width="1638" height="254" key="GridCell.Tab.0.left/0.23.1680.949@0.23.1680.949" timestamp="1598349526221" />
+    <state width="1638" height="254" key="GridCell.Tab.0.right" timestamp="1598349526222">
+      <screen x="0" y="23" width="1680" height="949" />
+    </state>
+    <state width="1638" height="254" key="GridCell.Tab.0.right/0.23.1680.949@0.23.1680.949" timestamp="1598349526222" />
+    <state width="1638" height="314" key="GridCell.Tab.1.bottom" timestamp="1591263488299">
+      <screen x="0" y="23" width="1680" height="949" />
+    </state>
+    <state width="1638" height="314" key="GridCell.Tab.1.bottom/0.23.1680.949@0.23.1680.949" timestamp="1591263488299" />
+    <state width="1638" height="314" key="GridCell.Tab.1.center" timestamp="1591263488299">
+      <screen x="0" y="23" width="1680" height="949" />
+    </state>
+    <state width="1638" height="314" key="GridCell.Tab.1.center/0.23.1680.949@0.23.1680.949" timestamp="1591263488299" />
+    <state width="1638" height="314" key="GridCell.Tab.1.left" timestamp="1591263488299">
+      <screen x="0" y="23" width="1680" height="949" />
+    </state>
+    <state width="1638" height="314" key="GridCell.Tab.1.left/0.23.1680.949@0.23.1680.949" timestamp="1591263488299" />
+    <state width="1638" height="314" key="GridCell.Tab.1.right" timestamp="1591263488299">
+      <screen x="0" y="23" width="1680" height="949" />
+    </state>
+    <state width="1638" height="314" key="GridCell.Tab.1.right/0.23.1680.949@0.23.1680.949" timestamp="1591263488299" />
+    <state width="1638" height="314" key="GridCell.Tab.2.bottom" timestamp="1590999185226">
+      <screen x="0" y="23" width="1680" height="949" />
+    </state>
+    <state width="1638" height="314" key="GridCell.Tab.2.bottom/0.23.1680.949@0.23.1680.949" timestamp="1590999185226" />
+    <state width="1638" height="314" key="GridCell.Tab.2.center" timestamp="1590999185225">
+      <screen x="0" y="23" width="1680" height="949" />
+    </state>
+    <state width="1638" height="314" key="GridCell.Tab.2.center/0.23.1680.949@0.23.1680.949" timestamp="1590999185225" />
+    <state width="1638" height="314" key="GridCell.Tab.2.left" timestamp="1590999185225">
+      <screen x="0" y="23" width="1680" height="949" />
+    </state>
+    <state width="1638" height="314" key="GridCell.Tab.2.left/0.23.1680.949@0.23.1680.949" timestamp="1590999185225" />
+    <state width="1638" height="314" key="GridCell.Tab.2.right" timestamp="1590999185225">
+      <screen x="0" y="23" width="1680" height="949" />
+    </state>
+    <state width="1638" height="314" key="GridCell.Tab.2.right/0.23.1680.949@0.23.1680.949" timestamp="1590999185225" />
+    <state x="617" y="207" key="RollbackChangesDialog" timestamp="1591260846147">
+      <screen x="0" y="23" width="1680" height="949" />
+    </state>
+    <state x="617" y="207" key="RollbackChangesDialog/0.23.1680.949@0.23.1680.949" timestamp="1591260846147" />
+    <state x="341" y="136" key="SettingsEditor" timestamp="1599111299361">
+      <screen x="0" y="23" width="1680" height="949" />
+    </state>
+    <state x="341" y="136" key="SettingsEditor/0.23.1680.949@0.23.1680.949" timestamp="1599111299361" />
+    <state x="651" y="345" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593587343273">
+      <screen x="0" y="23" width="1680" height="949" />
+    </state>
+    <state x="651" y="345" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1680.949@0.23.1680.949" timestamp="1593587343273" />
+    <state x="541" y="223" width="598" height="548" key="find.popup" timestamp="1593652066703">
+      <screen x="0" y="23" width="1680" height="949" />
+    </state>
+    <state x="541" y="223" width="598" height="548" key="find.popup/0.23.1680.949@0.23.1680.949" timestamp="1593652066703" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/aml-system/src/main/java/com/sinosoft/aml/service/impl/AmlQueryListServiceImpl.java</url>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/aml-admin/src/main/java/com/sinosoft/web/controller/aml/AmlDataQueryController.java</url>
+          <line>78</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/aml-admin/src/main/java/com/sinosoft/web/controller/aml/AmlDataQueryController.java</url>
+          <line>90</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

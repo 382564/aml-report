@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh" xmlns:th="http://www.thymeleaf.org" xmlns:text-indent="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--360浏览器优先以webkit内核解析-->
+    <title>公司介绍</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href="../static/css/bootstrap.min.css" th:href="@{/css/bootstrap.min.css}" rel="stylesheet"/>
+    <link href="../static/css/font-awesome.min.css" th:href="@{/css/font-awesome.min.css}" rel="stylesheet"/>
+    <link href="../static/css/main/animate.min.css" th:href="@{/css/main/animate.min.css}" rel="stylesheet"/>
+    <link href="../static/css/main/style.min862f.css" th:href="@{/css/main/style.min862f.css}" rel="stylesheet"/>
+</head>
+
+<body class="gray-bg">
+    <div class="row  border-bottom white-bg dashboard-header">
+        <div class="col-sm-12">
+			<img th:src="@{/img/index.png}" width="100%">
+			<hr>
+        </div>
+
+        <div class="">
+            <h2>上海人寿保险股份有限公司</h2>
+            <p font-size="14px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;上海人寿保险股份有限公司是注册在中国（上海）自由贸易试验区内的首家全国性人身保险公司。</p>
+            <p font-size="14px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;上海人寿将紧紧依托中国（上海）自贸区先行先试的政策环境，创新实践，努力探索走一条传统保险与资产管理相结合、人寿保险与健康保险相结合、保险服务与医疗服务相结合、保险功能与生命产业相结合、国际经验与国人需求相结合的人寿保险公司发展新路。上海人寿将以国际化的平台，个性化的产品，以人为本的服务理念，为广大客户提供全新的保险服务体验。</p>
+			<p font-size="14px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;上海人寿的发展愿景：以尊重人的生命、关爱人的健康、创造人的价值为使命，致力为人类幸福和社会安宁服务，成为国内领先、国际著名的人寿保险服务商与综合性的金融保险集团。</p>
+			<p font-size="14px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;上海人寿愿与您携手共同创造向上人生，畅享美好生活！</p>
+        </div>
+    </div>
+
+    <script th:src="@{/js/jquery.min.js}"></script>
+    <script th:src="@{/js/bootstrap.min.js}"></script>
+    <script th:src="@{/ajax/libs/layer/layer.min.js}"></script>
+    <script type="text/javascript">
+	    $('#pay-qrcode').click(function(){
+	        var html=$(this).html();
+	        parent.layer.open({
+	            title: false,
+	            type: 1,
+	            closeBtn:false,
+	            shadeClose:true,
+	            area: ['600px', 'auto'],
+	            content: html
+	        });
+	    });
+    </script>
+</body>
+</html>

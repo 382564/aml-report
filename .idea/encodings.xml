@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aml-admin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aml-admin/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aml-admin/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aml-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aml-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aml-common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aml-framework" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aml-framework/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aml-framework/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aml-quartz" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aml-quartz/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aml-quartz/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aml-system" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aml-system/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aml-system/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+  </component>
+</project>
